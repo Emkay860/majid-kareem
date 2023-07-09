@@ -1,412 +1,697 @@
 <!DOCTYPE html>
-<html>
-  <title>Majid Kareem | Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Raleway"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <style>
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-family: 'Raleway', sans-serif;
-    }
-  </style>
-  <body class="w3-light-grey w3-content" style="max-width: 1600px">
-    <!-- Sidebar/menu -->
-    <nav
-      class="w3-sidebar w3-collapse w3-white w3-animate-left"
-      style="z-index: 3; width: 300px"
-      id="mySidebar"
-    >
-      <br />
-      <div class="w3-container">
-        <a
-          href="#"
-          onclick="w3_close()"
-          class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
-          title="close menu"
-        >
-          <i class="fa fa-remove"></i>
-        </a>
-        <img src="img/Majid_2.png" style="width: 45%" class="w3-round" />
-        <br />
-        <br />
-        <h4><b>MAJID KAREEM</b></h4>
-        <p class="w3-text-grey">FULL STACK WEB DEVELOPER</p>
-      </div>
-      <div class="w3-bar-block">
-        <a
-          href="#portfolio"
-          onclick="w3_close()"
-          class="w3-bar-item w3-button w3-padding w3-text-teal"
-          ><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a
-        >
-        <a
-          href="#about"
-          onclick="w3_close()"
-          class="w3-bar-item w3-button w3-padding"
-          ><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a
-        >
-        <a
-          href="#contact"
-          onclick="w3_close()"
-          class="w3-bar-item w3-button w3-padding"
-          ><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a
-        >
-      </div>
-      <div class="w3-panel w3-large">
-        <a href="https://github.com/Emkay860/"
-          ><i class="fa fa-github w3-hover-opacity"></i>&nbsp;</a
-        >
-        <a href="https://twitter.com/Mkay860_"
-          ><i class="fa fa-twitter w3-hover-opacity"></i>&nbsp;</a
-        >
-        <a href="https://www.linkedin.com/in/majid-kareem-08282988/"
-          ><i class="fa fa-linkedin w3-hover-opacity"></i>
-        </a>
-      </div>
-    </nav>
-    <!-- Overlay effect when opening sidebar on small screens -->
-    <div
-      class="w3-overlay w3-hide-large w3-animate-opacity"
-      onclick="w3_close()"
-      style="cursor: pointer"
-      title="close side menu"
-      id="myOverlay"
-    ></div>
-    <!-- !PAGE CONTENT! -->
-    <div class="w3-main" style="margin-left: 300px">
-      <!-- Header -->
-      <header id="portfolio">
-        <a href="#">
-          <img
-            src="img/IMG_20200528_102319_3.jpg"
-            style="width: 65px"
-            class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"
-          />
-        </a>
-        <span
-          class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey"
-          onclick="w3_open()"
-          ><i class="fa fa-bars"></i
-        ></span>
-        <div class="w3-container">
-          <h1><b>Majid Kareem</b></h1>
-          <div class="w3-section w3-bottombar w3-padding-16">
-            <span class="w3-margin-right">Filter:</span>
-            <button class="w3-button w3-black">ALL</button>
-          </div>
-        </div>
-      </header>
-      <!-- First Photo Grid-->
+<html lang="en">
 
-      <div class="w3-row-padding">
-        <div class="w3-third w3-container w3-margin-bottom">
-          <a href="http://trueup.io/" target="_blank">
-            <img
-              alt="trueup"
-              style="width: 100%"
-              class="w3-hover-opacity"
-              src="img/trueup.png"
-            />
-          </a>
-          <div class="w3-container w3-white">
-            <p><b>Trueup.io</b></p>
-            <p>
-              There are 1,121 tech companies worth >$1 billlion. TrueUp lets you
-              quickly find the best jobs at the best companies based on what you
-              care about most.
-            </p>
-          </div>
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <a href="http://datanow.ng/" target="_blank">
-            <img
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-              src="img/datanow3%20(1).jpg"
-            />
-          </a>
-          <div class="w3-container w3-white">
-            <p><b>Datanow App</b></p>
-            <p>
-              A merchant platform built for Systems Technology to enable them
-              retail and distribution of sservice rendered (e.g data retail etc)
-            </p>
-          </div>
-        </div>
-        <div class="w3-third w3-container">
-          <a href="https://clickpay.com.ng/" target="_blank">
-            <img
-              src="img/clickPay.jpg"
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-          </a>
-          <div class="w3-container w3-white">
-            <p><b>ClickPay web App</b></p>
-            <p>
-              Clickpay is one of the apps built for Systems Tech that takes care
-              of utility subscriptions and payments. it has 5000+ installs on
-              google playstore
-            </p>
-          </div>
-        </div>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Majid kareem - Portfolio Website" />
+    <meta name="keywords" content="developer blockchain ReactJS ethereum fullstack web3 creative Freelancer" />
+    <meta name="author" content="Majid kareem" />
+    <title>Majid kareems - Personal Portfolio Website</title>
+    <!--favicon-img-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--favicon-img-->
+    <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/color-green.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+</head>
 
-      <!-- Second Photo Grid-->
+<body>
+    <!--contains all the div-->
+    <div id="all">
+        <!--mouse  follower-->
+        <div class="cursor"></div>
+        <!--mouse  follower-->
+        <!--loader-->
+        <div id="loader">
+            <span class="color">Majid</span>Kareem
+        </div>
+        <!--loader-end-->
+        <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+        <!--link-screen-->
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <!-- <img src="images/Majid kareem logo.png" alt="logo"> -->
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="HOME" id="home-link">HOME</a>
+                <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
+                <!-- <a href="#" data-text="BLOG" id="blog-link">BLOG</a> -->
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link">PORTFOLIO</a>
+                <a href="#" data-text="CONTACT" id="contact-link">CONTACT</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+        <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <!-- <img src="images/Majid kareem logo.png" alt="logo"> -->
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+        <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+            <!--Social Media Links-->
+            <div class="social-media-links">
+                <!-- <a href="#"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a>Your instagram homepage link inser in place of "#" -->
+                <!-- <a href="#"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a> -->
+                <a href="https://www.linkedin.com/in/majid-kareem-08282988/"><img src="images/linkedin logo.png"
+                        class="social-media" alt="linkedin-logo"></a>
+                <a href="https://twitter.com/Mkay860_"><img src="images/twitter logo.png" class="social-media"
+                        alt="twitter-logo"></a>
 
-      <div class="w3-row-padding">
-        <div class="w3-third w3-container w3-margin-bottom">
-          <a href="https://www.portfolios.page/">
-            <img
-              src="img/portfoliosearch2.png"
-              alt="edata"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-          </a>
-          <div class="w3-container w3-white">
-            <p><b>Portfoliosearch </b></p>
-            <p>
-              Portfolios.page helps creatives and developers showcase their
-              projects and to give and receive feedbacks on the projects they
-              are working on.
-            </p>
-          </div>
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                    <div class="firstline"><span class="color">Majid </span>Kareem</div>
+                    <div class="secondline">
+                        I'm a
+                        <span class="txt-rotate color" data-period="1400"
+                            data-rotate='[ "Frontend Developer", "Fullstack Developer.", " Freelancer." ]'></span>
+                        <span class="slash">|</span>
+                    </div>
+                    <div class="contact">
+                        <a href="Mailto:kareemmajid86@gmail.com"><img src="images/mail.png" alt="email-pic"
+                                class="contactpic"></a><!--Your email Id write in place of "#"-->
+                        <a href="Tel:+2347055820877"><img src="images/call.png" alt="phone-pic"
+                                class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    </div>
+                </div>
+            </div>
+            <!--header image-->
+            <div class="header-image">
+                <!-- <img src="images/man.jpg" alt="logo"> -->
+            </div>
+            <!--header image end-->
         </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <a href="https://food-mobile-web.vercel.app/">
-            <img
-              alt="Norway"
-              style="width: 100%"
-              class="w3-hover-opacity"
-              src="img/foodmobile2.png"
-            />
-          </a>
-          <div class="w3-container w3-white">
-            <p><b>Food Mobile</b></p>
-            <p>
-              Food Mobile connects you with a broad range of local restaurants
-              and food sellers, so you can order from the full menus of your
-              local favorites whenever you want.
-            </p>
-          </div>
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <a
-            href="https://play.google.com/store/apps/details?id=com.cizar.edata"
-          >
-            <img
-              src="img/edata3.JPG"
-              alt="edata"
-              style="width: 100%"
-              class="w3-hover-opacity"
-            />
-          </a>
-          <div class="w3-container w3-white">
-            <p><b>Edata </b></p>
-            <p>
-              A data sales application built for a startup company (Cizar
-              Consult) in 2018 with 10,000 plus active users and downloads on
-              google play
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Pagination -->
-      <!-- Images of Me -->
-      <div class="w3-row-padding w3-padding-16" id="about"></div>
-      <div class="w3-container w3-padding-large" style="margin-bottom: 32px">
-        <h4><b>About Me</b></h4>
-        <p>
-          I'm an enthusiastic individual who enjoys learning and helping to
-          bring your dream projects to life with five (5) years of experience
-          facilitating cutting-edge engineering solutions with a wide range of
-          application and technology skills. Proven ability to leverage
-          full-stack expertise to build interactive and user-centered software,
-          websites and mobile designs to scale. Extensive expertise in large
-          system architecture development and administration.
-        </p>
-        <hr />
-        <!-- Progress bars / Skills -->
+        <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <!-- <div class="color-selector">
+                <div class="heading">Custobbbm Colors</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div> -->
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    About <span class="color">Me</span>
+                    <span class="header-caption">Get to Know <span class="color"> me.</span></span>
+                </div>
+                <div class="about-main">
+                    <div class="about-first-paragraph wow">
+                        <!--about description-->
+                        <span class="about-first-line">
+                            I'm a
+                            <span class="color">fullstack developer</span>
+                            based in Lagos, Nigeria </span>
+                        <br>
+                        <span class="about-second-line">
+                            With five (5) plus years of experience as a full stack
+                            developer, 2 years experience as a Solidity/web3.0 developer and blockchain enthusiast.
+                        </span>
+                        <span class="about-second-line">
+                            I enjoy learning new, teaching and writing about new technologies and I'm fascinated with
+                            the blockchain and the immense possibilities it could bring to the future of open internet.
+                        </span>
+                        <span class="about-second-line">
+                            Check out my profile at <a href="https://www.codementor.io/@majidk"> Codementor.io </a> and
+                            <a href=" https://dev.to/emkay860"> Dev.to </a> to
+                            see a list of some of my recent
+                            tutorials on blog posts</span>
+                        <div class="cv">
+                            <a href="#"><button>Download <span class="colors">CV</span></button></a>
+                        </div>
+                    </div>
+                    <!--about picture-->
+                    <div class="about-img">
+                        <!-- <img src="../../img/Majid_2.png" alt="Majid Kareem"> -->
+                    </div>
+                </div>
 
-        <hr />
-        <h4>Technical Skills</h4>
-        <!-- Progress bars / Skills -->
-        <p>FullStack Web Development</p>
-        <div class="w3-grey">
-          <div
-            class="w3-container w3-dark-grey w3-padding w3-center"
-            style="width: 95%"
-          >
-            95%
-          </div>
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img src="images/gear.png" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Custom Colors</div>
+                        <div class="colors">
+                            <ul>
+                                <li>
+                                    <a href="#0" class="color-red " title="color-red"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-purple" title="color-purple"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-malt" title="color-malt"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-green" title="color-green"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-blue" title="color-blue"></a>
+                                </li>
+                                <li>
+                                    <a href="#0" class="color-orange" title="color-orange"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--services header-->
+                <!-- <div class="services-heading wow">
+                    <span class="color">My</span> Services
+                </div> -->
+                <!--services header end-->
+                <!--services content-->
+                <!-- <div class="services-content">
+                    <div class="service-one service wow">
+                        <div class="service-img">
+                            <img src="images/coding.png" alt="service-one">
+                        </div>
+                        <div class="service-description">
+                            <h2>Web Designing</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        </div>
+                    </div>
+                    <div class="service-two service wow">
+                        <div class="service-img">
+                            <img src="images/instagram.png" alt="service-two">
+                        </div>
+                        <div class="service-description">
+                            <h2>Social Media</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        </div>
+                    </div>
+                    <div class="service-three service wow">
+                        <div class="service-img">
+                            <img src="images/bulb.png" alt="service-three">
+                        </div>
+                        <div class="service-description">
+                            <h2>Creative Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <!-- <div id="skills">
+                <div class="skills-header">
+                     My <span class="color"> Skills</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        HTML/CSS
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Javascript
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">90%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Adobe Ps
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="adobe-progress wow">83%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        PHP
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="php-progress wow">87%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        JQuery
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">94%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        SEO
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="seo-progress wow">84%</div>
+                    </div>
+                    </div>
+                </div>
+            </div> -->
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Majid kareems
+                </div>
+            </div>
+            <!--copyright-section-->
         </div>
-        <p>UI/UX Design</p>
-        <div class="w3-grey">
-          <div
-            class="w3-container w3-dark-grey w3-padding w3-center"
-            style="width: 85%"
-          >
-            85%
-          </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-header"> <span class="color"> My </span> Portfolio
+                <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+            </div>
+            <div id="portfolio-content">
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="./images/wkdHome.png" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>WakandaInu Apps</h2>
+                        <p>A decentralized community project with multiple
+                            utility applications e.g DEX, NFT marketplace etc</p>
+                        <div class="button">
+                            <a href="https://www.wakandainu.com/"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img src="./images/trueup.png" alt="portfolio-first">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Trueup.io</h2>
+                        <p>There are 1,121 tech companies worth >$1 billlion. TrueUp lets you
+                            quickly find the best jobs at the best companies based on what you
+                            care about most.</p>
+                        <div class="button"><a href="http://trueup.io/"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio portfolio-third">
+                    <div class=" portfolio-image">
+                        <img src="./images/databank.me.png" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Databank.me</h2>
+                        <p>
+                            Databank is a global membership organization that
+                            rewards it members for health and business related
+                            activities. It is a platform for creating a better life.
+                        </p>
+                        <div class="button"><a href="https://www.databank.me/"><button><span class="index"> View
+                                        Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-fourth">
+                    <div class="portfolio-image">
+                        <img src="./images/clickPay.jpg" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>ClickPay web App</h2>
+                        <p>
+                            Clickpay is one of the apps built for Systems Tech that takes care
+                            of utility subscriptions and payments. it has 20000+ installs on
+                            google playstore</p>
+                        <div class="button"><a href="https://clickpay.com.ng/"><button><span class="index"> View
+                                        Project<i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+                <div class="portfolio portfolio-fifth">
+                    <div class="portfolio-image">
+                        <img src="./images/datanow3%20(1).jpg" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Datanow App</h2>
+                        <p>A merchant platform built for Systems Technology to enable them
+                            retail and distribution of sservice rendered (e.g data retail etc)
+                        </p>
+                        <div class="button"><a href="http://datanow.ng/"><button><span class="index"> View Project<i
+                                            class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+
+            </div>
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Majid kareems
+                </div>
+            </div>
+            <!--copyright-section-->
         </div>
-        <p>Project Mangement</p>
-        <div class="w3-grey">
-          <div
-            class="w3-container w3-dark-grey w3-padding w3-center"
-            style="width: 80%"
-          >
-            80%
-          </div>
+        <!--portfolio end-->
+        <!--blog-->
+        <div id="blog">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="blog-header"> Blogs</span>
+                <span class="header-caption"> My Latest <span class="color"> blog posts.</span></span>
+            </div>
+            <div class="blog-content">
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-one.jpg" alt="blog-one">
+                            <div class="blog-date">8 May,20</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Harleys In Hawaai</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae
+                                illum, corrupti quo
+                                veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum
+                                provident? Magnam fugiat voluptas
+                                libero.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-two.jpg" alt="blog-two">
+                            <div class="blog-date">16 Jan,20</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Key To Be Productive</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores,
+                                recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda
+                                harum dolorum iusto tenetur
+                                eius eligendi dolor magnam sit!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-three.jpg" alt="blog-three">
+                            <div class="blog-date">30 Nov,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Caffeine Addict</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit
+                                ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur
+                                suscipit cum quas.
+                                Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-four.jpg" alt="blog-four">
+                            <div class="blog-date">6 Jul,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam
+                                vitae,
+                                quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis
+                                praesentium quae.
+                                Sed, quibusdam necessitatibus.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-five.jpg" alt="blog-five">
+                            <div class="blog-date">1 Jun,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Work From Home</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt eum necessitatibus rem
+                                dignissimos nulla mollitia cumque, provident officiis non vitae? Animi aut doloremque
+                                illum, soluta hic minus
+                                sint explicabo..</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                        <div class="img">
+                            <img src="images/post-six.jpg" alt="blog-six">
+                            <div class="blog-date">28 Feb,19</div>
+                        </div>
+                        <div class="blog-text">
+                            <h3>Business Trip</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga
+                                ratione, unde,
+                                ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut
+                                rerum nam.</p>
+                        </div>
+                    </a>
+                </div>
+            </div> -->
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Majid kareems
+                </div>
+            </div>
+            <!--copyright-section-->
         </div>
-        <hr />
-        <hr />
-        <!-- Pricing Tables -->
-      </div>
-      <!-- Contact Section -->
-      <div class="w3-container w3-padding-large w3-grey">
-        <h4 id="contact"><b>Contact Me</b></h4>
-        <div
-          class="w3-row-padding w3-center w3-padding-24"
-          style="margin: 0 -16px"
-        >
-          <div class="w3-third w3-dark-grey">
-            <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-            <p>kareemmajid86@gmail.com</p>
-          </div>
-          <div class="w3-third w3-teal">
-            <p>
-              <i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i>
-            </p>
-            <p>Lagos, NG</p>
-          </div>
-          <div class="w3-third w3-dark-grey">
-            <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-            <p>+234-7055820877</p>
-          </div>
+        <!--blog end-->
+        <!--contact-->
+        <div id="contact">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img src="images/gear.png" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Custom Colors</div>
+                    <div class="colors">
+                        <ul>
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-header">Contact <span class="color"> Me</span>
+                <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div>
+            </div>
+            <div class="contact-content">
+                <!--Contact form-->
+                <div class="contact-form">
+                    <div class="form-header">
+                        Message Me
+                    </div>
+                    <form id="myForm" action="#">
+                        <div class="input-line">
+                            <input id="name" type="text" placeholder="Name" class="input-name">
+                            <input id="email" type="email" placeholder="Email" class="input-name">
+                        </div>
+                        <input type="text" id="subject" placeholder="subject" class="input-subject">
+                        <textarea id="body" class="input-textarea" placeholder="message"></textarea>
+                        <button type="button" id="submit" value="send">Submit</button>
+                    </form>
+
+                </div>
+                <!--Contact form-->
+                <!--Contact information-->
+                <div class="contact-info">
+                    <div class="contact-info-header">
+                        Contact Info
+                    </div>
+                    <div class="contact-info-content">
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Name</h6>
+                                <p>Majid Kareem</p>
+                            </div>
+                        </div>
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Location</h6>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Call</h6>
+                                <p>+2347055820977</p>
+                            </div>
+                        </div>
+
+                        <div class="contect-info-content-line">
+                            <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                            <div class="contact-info-icon-text">
+                                <h6>Email</h6>
+                                <p>kareemmajid86@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact information end-->
+                </div>
+            </div>
+            <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <img src="./images/copyright.png" alt="copyright-img" class="images" height="14px"> Majid kareem
+                </div>
+            </div>
+            <!--copyright-section-->
         </div>
-        <hr class="w3-opacity" />
-        <form
-          action="https://formspree.io/mnqgrnvg"
-          method="POST"
-          target="_blank"
-        >
-          <div class="w3-section">
-            <label>Name</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="Name"
-              required
-            />
-          </div>
-          <div class="w3-section">
-            <label>Email</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="_replyto"
-              required
-            />
-          </div>
-          <div class="w3-section">
-            <label>Message</label>
-            <input
-              class="w3-input w3-border"
-              type="text"
-              name="message"
-              required
-            />
-          </div>
-          <button type="submit" class="w3-button w3-black w3-margin-bottom">
-            <i class="fa fa-paper-plane w3-margin-right"></i>Send Message
-          </button>
-        </form>
-      </div>
-      <!-- Footer -->
-      <footer class="w3-container w3-padding-32 w3-dark-grey">
-        <div class="w3-row-padding">
-          <div class="w3-third">
-            <h3>FOOTER</h3>
-            <p>Copyright &copy; Majid Kareem 2022</p>
-          </div>
-          <div class="w3-third">
-            <h3>BLOG POSTS</h3>
-            <ul class="w3-ul w3-hoverable"></ul>
-          </div>
-          <div class="w3-third">
-            <h3>POPULAR TAGS</h3>
-            <p>
-              <span class="w3-tag w3-black w3-margin-bottom"
-                >Frontend Dev
-              </span>
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >ReactJS</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >LAGOS</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >NIGERIA</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >Programming</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >Web Designer</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >Full Stack</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom">CSS</span>
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom">HTML</span>
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >node.js</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >remote</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >portfolio</span
-              >
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom">mid</span>
-              <span class="w3-tag w3-grey w3-small w3-margin-bottom"
-                >wordpress</span
-              >
-            </p>
-          </div>
-        </div>
-      </footer>
-      <div class="w3-black w3-center w3-padding-24"></div>
-      <!-- End page content -->
+        <!--contact end-->
     </div>
+    <!--all the divisions-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--particles script-->
     <script>
-      // Script to open and close sidebar
-      function w3_open() {
-        document.getElementById('mySidebar').style.display = 'block';
-        document.getElementById('myOverlay').style.display = 'block';
-      }
-
-      function w3_close() {
-        document.getElementById('mySidebar').style.display = 'none';
-        document.getElementById('myOverlay').style.display = 'none';
-      }
+        particlesJS("particles", { "particles": { "number": { "value": 40, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
     </script>
-  </body>
+
+</body>
+
 </html>
